@@ -128,7 +128,7 @@ export default function Articles() {
     <>
       <Head>
         <title>Simple Portfolio Built with Nextjs | Articles Page</title>
-        <meta name="description" content="Browse through CodeBucks's collection of software engineering articles and 
+        <meta name="description" content="Browse through Elbay's collection of software engineering articles and 
         tutorials on Next.js, React.js, web development, and more. 
         Gain valuable insights and stay up-to-date with SEO tips for building a developer portfolio." />
       </Head>

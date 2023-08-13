@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Awesome Portfolio Built with Nextjs</title>
+        <title>Elbay Malik Portfolio</title>
         <meta
           name="description"
-          content="Explore CodeBucks's Next.js developer portfolio and 
+          content="Explore Elbay's Next.js developer portfolio and 
         discover the latest webapp projects and software engineering articles. 
         Showcase your skills as a full-stack developer and software engineer."
         />
@@ -33,7 +33,7 @@ export default function Home() {
             <div className="w-1/2 lg:hidden md:inline-block md:w-full">
               <Image
                 src={profilePic}
-                alt="CodeBucks"
+                alt="Elbay Malik"
                 className="h-auto w-full"
                 sizes="100vw"
                 priority
@@ -65,7 +65,7 @@ export default function Home() {
                 </Link>
 
                 <Link
-                  href="mailto:codebucks27@gmail.com"
+                  href="mailto:elbay.malik@gmail.com"
                   className="ml-4 text-lg font-medium capitalize text-dark underline 
                   dark:text-light md:text-base"
                 >
@@ -81,7 +81,7 @@ export default function Home() {
           <Image
             className="relative h-auto w-full"
             src={lightBulb}
-            alt="Codebucks"
+            alt="Elbay Malik"
           />
         </div>
       </article>

@@ -39,7 +39,7 @@ export default function About() {
     <>
       <Head>
         <title>Minimal Portfolio Built with Nextjs | About Page</title>
-        <meta name="description" content="Learn more about CodeBucks, a Next.js developer with a passion for 
+        <meta name="description" content="Learn more about Elbay Malik, a Next.js developer with a passion for 
         creating innovative solutions. Discover tips for building a developer portfolio and insights on 
         full-stack development, front-end development, and back-end development." />
       </Head>
@@ -60,7 +60,7 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>CodeBucks</strong>, a web developer and
+                Hi, I&apos;m <strong>Elbay Malik</strong>, a web developer and
                 UI/UX designer with a passion for creating beautiful,
                 functional, and user-centered digital experiences. With 4 years
                 of experience in the field. I am always looking for new and
@@ -91,7 +91,7 @@ export default function About() {
               <Image
                 className="h-auto w-full rounded-2xl"
                 src={profile}
-                alt="Codebucks"
+                alt="Elbay Malik"
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"

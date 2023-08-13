@@ -166,7 +166,7 @@ export default function Projects() {
         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
         <meta
           name="description"
-          content="Discover the latest webapp projects created by CodeBucks, a Next.js developer with 
+          content="Discover the latest webapp projects created by Elbay Malik, a Next.js developer with 
         expertise in React.js and full-stack development. Browse software engineering articles and tutorials for tips on creating your own portfolio."
         />
       </Head>
