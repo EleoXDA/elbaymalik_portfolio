@@ -3,13 +3,10 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
-  DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
   MoonIcon,
-  PinterestIcon,
   SunIcon,
-  TwitterIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 import { useThemeSwitch } from "./Hooks/useThemeSwitch";
@@ -101,17 +98,7 @@ const Navbar = () => {
       >
         <motion.a
           target={"_blank"}
-          className="w-6 mr-3"
-          href="#"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my twitter profile"
-        >
-          <TwitterIcon />
-        </motion.a>
-        <motion.a
-          target={"_blank"}
-          className="w-6 mx-3"
+          className="w-11 mx-3"
           href="#"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -121,7 +108,7 @@ const Navbar = () => {
         </motion.a>
         <motion.a
           target={"_blank"}
-          className="w-6 mx-3"
+          className="w-10 mx-3"
           href="#"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -129,30 +116,10 @@ const Navbar = () => {
         >
           <LinkedInIcon />
         </motion.a>
-        <motion.a
-          target={"_blank"}
-          className="w-6 mx-3 bg-light rounded-full"
-          href="#"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my pinterest profile"
-        >
-          <PinterestIcon />
-        </motion.a>
-        <motion.a
-          target={"_blank"}
-          className="w-6 mx-3"
-          href="#"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my dribbble profile"
-        >
-          <DribbbleIcon />
-        </motion.a>
 
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
-          className={`w-6 h-6 ease ml-3 flex items-center justify-center rounded-full p-1  
+          className={`w-9 h-9 ease ml-3 flex items-center justify-center rounded-full p-1  
             ${mode === "light" ? "bg-dark  text-light" : "bg-light  text-dark"}
             `}
           aria-label="theme-switcher"
@@ -170,7 +137,7 @@ const Navbar = () => {
 
       <motion.div className="min-w-[70vw] sm:min-w-[90vw] flex justify-between items-center flex-col fixed top-1/2 left-1/2 -translate-x-1/2
       -translate-y-1/2
-      py-32 bg-dark/90 dark:bg-light/75 rounded-lg z-50 backdrop-blur-md
+      py-32 bg-dark/60 dark:bg-light/60 rounded-lg z-50 backdrop-blur-md
       "
       initial={{scale:0,x:"-50%",y:"-50%", opacity:0}}
       animate={{scale:1,opacity:1}}
@@ -187,17 +154,7 @@ const Navbar = () => {
       >
         <motion.a
           target={"_blank"}
-          className="w-6 m-1 mr-3 sm:mx-1"
-          href="#"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my twitter profile"
-        >
-          <TwitterIcon />
-        </motion.a>
-        <motion.a
-          target={"_blank"}
-          className="w-6 m-1 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
+          className="w-11 m-1 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
           href="#"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -207,7 +164,7 @@ const Navbar = () => {
         </motion.a>
         <motion.a
           target={"_blank"}
-          className="w-6 m-1 mx-3 sm:mx-1"
+          className="w-11 m-1 mx-3 sm:mx-1"
           href="#"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
@@ -215,30 +172,10 @@ const Navbar = () => {
         >
           <LinkedInIcon />
         </motion.a>
-        <motion.a
-          target={"_blank"}
-          className="w-6 m-1 mx-3 bg-light rounded-full sm:mx-1"
-          href="#"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my pinterest profile"
-        >
-          <PinterestIcon />
-        </motion.a>
-        <motion.a
-          target={"_blank"}
-          className="w-6 m-1 mx-3 sm:mx-1"
-          href="#"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my dribbble profile"
-        >
-          <DribbbleIcon />
-        </motion.a>
-
+        
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
-          className={`w-6 h-6 ease m-1 ml-3 sm:mx-1 flex items-center justify-center rounded-full p-1  
+          className={`w-11 h-11 ease m-1 ml-3 sm:mx-1 flex items-center justify-center rounded-full p-1  
             ${mode === "light" ? "bg-dark  text-light" : "bg-light  text-dark"}
             `}
           aria-label="theme-switcher"
