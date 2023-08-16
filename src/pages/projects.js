@@ -164,8 +164,9 @@ export default function Projects() {
         <title>Elbay Malik Portfolio | Projects Page</title>
         <meta
           name="description"
-          content="Discover the latest webapp projects created by Elbay Malik, a Next.js developer with 
-        expertise in React.js and full-stack development. Browse software engineering articles and tutorials for tips on creating your own portfolio."
+          content="Discover the latest webapp projects created by Elbay Malik, a Next.js/Nuxt.js developer with 
+        expertise in React.js/Vue.js and full-stack development. Browse software engineering articles and 
+        tutorials for tips on creating your own portfolio."
         />
       </Head>
 
