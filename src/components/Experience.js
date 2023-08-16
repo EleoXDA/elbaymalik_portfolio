@@ -51,7 +51,7 @@ const Experience = () => {
 
       <div className="my-64">
         <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
-          Experience
+          Latest Experience
         </h2>
 
         <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
@@ -62,60 +62,43 @@ const Experience = () => {
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
             <Details
-              position="Software Engineer"
-              company="Google"
-              companyLink="https://google.com"
-              time="2022-Present"
-              address="Mountain View, CA"
-              work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              position="Freelance Web Developer"
+              company="Various"
+              companyLink=""
+              time="04/2023-Present"
+              address="Online"
+              work="Worked with several projects ranging from mobile apps till websites/web projects. Tech Stack: JavaScript/Typescript, NextJS, NuxtJS, Flutter, Dart, Widget Tester, Ruby on Rails, RSpec"
             />
 
             <Details
-              position="Intern"
-              company="Facebook"
-              companyLink="https://facebook.com"
-              time="Summer 2021"
-              address="Menlo Park, CA."
-              work="Worked on a team responsible for developing a new mobile app
-              feature that allowed users to create and share short-form video
-              content, including designing and implementing a new user interface
-              and developing the backend infrastructure to support the feature."
+              position="Cross-Platform Developer"
+              company="koviko GmbH"
+              companyLink="https://www.koviko.de/"
+              time="11/2022-04/2023"
+              address="August-Bebel-Str. 28, 14482 Potsdam."
+              work="Responsible for building a cross-platform app for learning German language using Flutter/Dart and PHP backend with Yii framework. Tech Stack: Flutter, Dart, PHP, Yii, GitLab, CI CD, Hive database, BLoC pattern, Widget Tester"
             />
 
             <Details
-              position="Software Developer"
-              company="Amazon"
-              companyLink="https://amazon.com"
-              time="2020-2021"
-              address="Seattle, WA."
-              work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
+              position="Freelance Web Developer"
+              company="Various"
+              companyLink=""
+              time="04/2022-11/2022"
+              address="Online"
+              work="Worked with several projects ranging from mobile apps till websites/web projects. Tech Stack: JavaScript/Typescript, NextJS, NuxtJS, Flutter, Dart, Widget Tester, Ruby on Rails, RSpec"
             />
 
             <Details
-              position="Software Developer Intern"
-              company="Microsoft"
-              companyLink="https://microsoft.com"
-              time="Summer 2019"
-              address="Redmond, WA."
-              work="Worked on a team responsible for developing new features for
-              Microsoft's Windows operating system, including implementing a new
-              user interface for a system settings panel and optimizing the
-              performance of a core system component."
-            />
-
-            <Details
-              position="Teaching Assistant"
-              company="MIT"
-              companyLink="https://mit.edu"
-              time="Fall 2018"
-              address="Massachusetts Ave, Cambridge, MA."
-              work="Assisted in teaching a course on computer programming, held office
-              hours to help students with assignments, and graded exams and
-              assignments."
+              position="Project Assistant"
+              company="Friedrich-Schiller-Universität Jena"
+              companyLink="https://www.uni-jena.de/"
+              time="10/2019-04/2022"
+              address="Fürstengraben 1, 07743 Jena."
+              work="Increased effectivity of CPU and GPU preparation on silicon chips. Managed project budget for 30 months and increased cost effectivity by 15%. Demonstrated strong writing skills in original correspondence and reports."
             />
           </ul>
         </div>
-        </div>
+      </div>
     );
 };
 
