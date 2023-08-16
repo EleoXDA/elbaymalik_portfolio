@@ -90,7 +90,7 @@ const Navbar = () => {
         <CustomLink className="mr-4" href="/" title="Home" />
         <CustomLink className="mx-4" href="/about" title="About" />
         <CustomLink className="mx-4" href="/projects" title="Projects" />
-        <CustomLink className="ml-4" href="/articles" title="Articles" />
+        {/* <CustomLink className="ml-4" href="/articles" title="Articles" /> */}
       </nav>
       <nav
         className="flex items-center justify-center flex-wrap lg:mt-2
@@ -156,8 +156,8 @@ const Navbar = () => {
           target={"_blank"}
           className="w-11 m-1 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
           href="#"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
+          whileHover={{ y: -5, scale: 1.2 }}
+          whileTap={{ y: 0, scale: 1 }}
           aria-label="Checkout my github profile"
         >
           <GithubIcon />
@@ -166,8 +166,8 @@ const Navbar = () => {
           target={"_blank"}
           className="w-11 m-1 mx-3 sm:mx-1"
           href="#"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
+          whileHover={{ y: -5, scale: 1.2 }}
+          whileTap={{ y: 0, scale: 1 }}
           aria-label="Checkout my linkedin profile"
         >
           <LinkedInIcon />
