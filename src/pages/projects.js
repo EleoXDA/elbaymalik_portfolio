@@ -5,12 +5,10 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import proj2 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
-import proj3 from "../../public/images/projects/fashion-studio-website.jpg";
-import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj1 from "../../public/images/projects/Project4.png";
+import proj2 from "../../public/images/projects/Project2.png";
+import proj3 from "../../public/images/projects/Project3.png";
+import proj4 from "../../public/images/projects/Project1.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -163,7 +161,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Modern Portfolio Built with Nextjs | Projects Page</title>
+        <title>Elbay Malik Portfolio | Projects Page</title>
         <meta
           name="description"
           content="Discover the latest webapp projects created by Elbay Malik, a Next.js developer with 
@@ -177,66 +175,55 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
+            text="Where Knowledge Meets Creativity!"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                title="Dribble for Developers"
+                summary="This website is created for developers to share their websites/applications so that other developers can appreciate it and/or follow/star them in GitHub."
                 img={proj1}
-                link="https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css"
-                github="https://github.com/codebucks27/CryptoBucks-Final-Code"
+                link="https://dev-dribble.vercel.app/"
+                github="https://github.com/EleoXDA/dribble-for-devs"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
-                title="NFT collection Website"
-                img={proj2}
-                link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
-                github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                type="Portfolio Website"
+                title="HTML-CSS-JS Portfolio Website"
+                img={proj4}
+                link="https://www.elbaymalik.site/"
+                github="https://github.com/EleoXDA/elbaymalik_portfolio"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website"
-                title="Fashion Studio Website"
+                type="Portfolio Website"
+                title="High Tech Responsive Portfolio"
                 img={proj3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                link="https://elbaymalik-portfolio.vercel.app/"
+                github="https://github.com/EleoXDA/elbaymalik_portfolio"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Portfolio Website"
-                title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
-                img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                type="Landing Page"
+                title="Landing Page with Nuxt3"
+                summary="This is an open-source portfolio template that can be used by anyone. It contains columns and rows that encapsulate details about person, contact information and links to the channels/posts/websites the user is active in."
+                img={proj2}
+                link="https://landing-page-nuxt3.vercel.app/"
+                github="https://github.com/EleoXDA/Landing_page_nuxt3"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Website Template"
-                img={proj5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Blog Website"
-                img={proj6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
-              />
-            </div>
+            <h2 className="col-span-12 text-4xl font-bold text-center">And many many more in my <Link
+            href="https://github.com/EleoXDA"
+            target="_blank"
+            className="underline underline-offset-2"
+          >
+            GitHub page
+          </Link></h2>
           </div>
         </Layout>
       </main>
