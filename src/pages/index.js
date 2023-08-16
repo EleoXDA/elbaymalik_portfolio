@@ -79,6 +79,7 @@ export default function Home() {
           <Image
             className="relative h-auto w-full"
             src={lightBulb}
+            alt=""
           />
         </div>
       </article>
