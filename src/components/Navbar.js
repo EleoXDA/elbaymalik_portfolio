@@ -99,9 +99,9 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-11 mx-3"
-          href="#"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
+          href="https://github.com/EleoXDA"
+          whileHover={{ y: -5, scale: 1.2 }}
+          whileTap={{ y: 0, scale: 1 }}
           aria-label="Checkout my github profile"
         >
           <GithubIcon />
@@ -109,9 +109,9 @@ const Navbar = () => {
         <motion.a
           target={"_blank"}
           className="w-10 mx-3"
-          href="#"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
+          href="https://www.linkedin.com/in/elbay-malik/"
+          whileHover={{ y: -5, scale: 1.2 }}
+          whileTap={{ y: 0, scale: 1 }}
           aria-label="Checkout my linkedin profile"
         >
           <LinkedInIcon />
