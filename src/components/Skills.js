@@ -54,14 +54,14 @@ const Skills = () => {
         <Skill name="Graphql" x="0vw" y="-20vw" />
         <Skill name="Grafbase" x="-25vw" y="18vw" />
         <Skill name="Tawilwind CSS" x="28vw" y="18vw" />
-        <Skill name="Sass" x="-20vw" y="-15vw" />
+        <Skill name="Sass" x="-18vw" y="-15vw" />
         <Skill name="SCSS" x="-12vw" y="8vw" />
         <Skill name="PHP" x="13vw" y="10vw" />
         <Skill name="Ruby on Rails" x="-30vw" y="10vw" />
         <Skill name="Figma" x="-33vw" y="2vw" />
         <Skill name="Adobe XD" x="-15vw" y="-5vw" />
         <Skill name="Flutter" x="12vw" y="-5vw" />
-        <Skill name="Dart" x="12vw" y="-18vw" />
+        <Skill name="Dart" x="-31vw" y="-19vw" />
         <Skill name="Postman" x="25vw" y="-20vw" />        
     </div></>
   );
