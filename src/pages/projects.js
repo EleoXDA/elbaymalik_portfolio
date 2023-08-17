@@ -196,7 +196,7 @@ export default function Projects() {
                 title="HTML-CSS-JS Portfolio Website"
                 img={proj4}
                 link="https://www.elbaymalik.site/"
-                github="https://github.com/EleoXDA/elbaymalik_portfolio"
+                github="https://github.com/EleoXDA/portfolio_simple"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
