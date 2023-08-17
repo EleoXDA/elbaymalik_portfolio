@@ -1,6 +1,7 @@
 import AnimatedText from "@/components/AnimatedText";
 import { HireMe } from "@/components/HireMe";
 import { LinkArrow } from "@/components/Icons";
+import { Mail } from "@/components/Icons";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
@@ -9,7 +10,7 @@ import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import { useState } from 'react';
-import { ContactForm } from "@/components/contactForm";
+import { ContactForm } from "@/components/ContactForm";
 
 
 
@@ -56,19 +57,21 @@ export default function Home() {
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
                               capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
                               dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
-                              md:p-2 md:px-4 md:text-base
-             `}
-                  download
+                              md:p-2 md:px-4 md:text-base m-1
+                            `}
                 >
                   Resume <LinkArrow className="ml-1 !w-6 md:!w-4" />
                 </Link>
 
                 <button
-                  className="ml-4 text-lg font-medium capitalize text-dark underline 
-                  dark:text-light md:text-base"
+                  className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
+                              capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                              dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                              md:p-2 md:px-4 md:text-base m-1
+                            `}
                   onClick={() => setShowModal(true)}
                 >
-                  Contact
+                  Contact Me <Mail className="ml-2 !w-6 md:!w-4" />
                 </button>
               </div>
             </div>
