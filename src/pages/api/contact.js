@@ -1,8 +1,5 @@
 import FormData from 'form-data'
 import Mailgun from 'mailgun.js';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 const API_KEY = '80b6ed093679db9947e6d00270532f23-ee16bf1a-d6147cb1'
 const DOMAIN = 'sandbox46d49e2cb44d467c99842e48113d282e.mailgun.org'
