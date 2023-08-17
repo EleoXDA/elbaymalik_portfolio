@@ -41,7 +41,7 @@ export default function About() {
         <title>Elbay Malik Portfolio | About Page</title>
         <meta name="description" content="Learn more about Elbay Malik, a Next.js developer with a passion for 
         creating innovative solutions. Discover tips for building a developer portfolio and insights on 
-        full-stack development, front-end development, and back-end development." />
+        fullstack development, front-end development, and back-end development." />
       </Head>
       <TransitionEffect />
       <main

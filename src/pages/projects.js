@@ -165,7 +165,7 @@ export default function Projects() {
         <meta
           name="description"
           content="Discover the latest webapp projects created by Elbay Malik, a Next.js/Nuxt.js developer with 
-        expertise in React.js/Vue.js and full-stack development. Browse software engineering articles and 
+        expertise in React.js/Vue.js and fullstack development. Browse software engineering articles and 
         tutorials for tips on creating your own portfolio."
         />
       </Head>
