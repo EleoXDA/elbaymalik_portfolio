@@ -49,7 +49,7 @@ export const ContactForm = ({ closeModal }) => {
       <Confetti />
     </div>
   ) : (
-    <div className="relative min-w-[50vw] sm:min-w-[40vw] flex justify-between items-center flex-col py-32 bg-light/80 dark:bg-dark/80 rounded-lg backdrop-blur-md">
+    <div className="relative min-w-[25vw] 2xl:min-w-[30vw] xl:min-w-[40vw] lg:min-w-[50vw] md:min-w-[55vw] sm:min-w-[70vw] flex justify-between items-center flex-col py-32 bg-light/80 dark:bg-dark/80 rounded-lg backdrop-blur-md">
     {/* Close button */}
     <button 
       onClick={closeModal}
