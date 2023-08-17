@@ -43,25 +43,25 @@ const Skills = () => {
         
       </motion.div>
 
-        <Skill name="HTML" x="-20vw" y="2vw" />
-        <Skill name="CSS" x="-5vw" y="-10vw" />
-        <Skill name="JavaScript" x="25vw" y="6vw" />
+        <Skill name="HTML" x="-16vw" y="3.5vw" />
+        <Skill name="CSS" x="-3vw" y="-12vw" />
+        <Skill name="JavaScript" x="25vw" y="3vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
-        <Skill name="NextJS" x="0vw" y="0vw" />
+        <Skill name="NextJS" x="0vw" y="2vw" />
         <Skill name="NuxtJS" x="15vw" y="-12vw" />
         <Skill name="VueJS" x="-35vw" y="-5vw" />
         <Skill name="Typescript" x="32vw" y="-5vw" />
         <Skill name="Graphql" x="0vw" y="-20vw" />
-        <Skill name="Grafbase" x="-25vw" y="18vw" />
-        <Skill name="Tawilwind CSS" x="28vw" y="18vw" />
-        <Skill name="Sass" x="-18vw" y="-15vw" />
-        <Skill name="SCSS" x="-12vw" y="8vw" />
-        <Skill name="PHP" x="13vw" y="10vw" />
-        <Skill name="Ruby on Rails" x="-30vw" y="10vw" />
-        <Skill name="Figma" x="-33vw" y="2vw" />
+        <Skill name="Grafbase" x="32vw" y="-12.5vw" />
+        <Skill name="Tailwind CSS" x="-28vw" y="-20vw" />
+        <Skill name="Sass" x="-18vw" y="-12vw" />
+        <Skill name="SCSS" x="17vw" y="11vw" />
+        <Skill name="PHP" x="33vw" y="12vw" />
+        <Skill name="Ruby on Rails" x="-30vw" y="12vw" />
+        <Skill name="Figma" x="-33vw" y="3vw" />
         <Skill name="Adobe XD" x="-15vw" y="-5vw" />
-        <Skill name="Flutter" x="12vw" y="-5vw" />
-        <Skill name="Dart" x="-31vw" y="-19vw" />
+        <Skill name="Flutter" x="10vw" y="-5vw" />
+        <Skill name="Dart" x="-31vw" y="-12.5vw" />
         <Skill name="Postman" x="25vw" y="-20vw" />        
     </div></>
   );
