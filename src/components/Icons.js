@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import * as React from "react";
 
 export const GithubIcon = ({ className, ...rest }) => (
@@ -551,7 +552,6 @@ export const LinkArrow = ({ className, ...rest }) => (
     className={`w-full h-auto ${className}`}
     {...rest}
   >
-    <path fill="none" d="M0 0h24v24H0z" />
     <path
       fill="none"
       stroke="currentColor"
@@ -560,6 +560,39 @@ export const LinkArrow = ({ className, ...rest }) => (
       strokeWidth={2}
       d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m-5 0h5v5"
     />
+  </svg>
+);
+
+export const Mail = ({ className, ...rest }) => (
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    viewBox="0 0 24 24"
+    className={`w-full h-auto ${className}`}
+    {...rest}
+  ><g transform="scale(0.26)">
+    <path fill="currentColor"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2} d="M 80.89 78.772 H 9.11 c -5.023 0 -9.11 -4.087 -9.11 -9.11 V 20.338 c 0 -5.023 4.087 -9.11 9.11 -9.11 h 71.78 c 5.023 0 9.11 4.087 9.11 9.11 v 49.324 C 90 74.686 85.913 78.772 80.89 78.772 z M 9.11 17.228 c -1.715 0 -3.11 1.396 -3.11 3.11 v 49.324 c 0 1.715 1.395 3.11 3.11 3.11 h 71.78 c 1.715 0 3.11 -1.396 3.11 -3.11 V 20.338 c 0 -1.715 -1.396 -3.11 -3.11 -3.11 H 9.11 z"/>
+    <path fill="currentColor"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2} d="M 45 55.427 c -5.408 0 -10.599 -2.292 -14.242 -6.288 L 2.493 18.125 l 4.435 -4.042 l 28.265 31.013 c 2.545 2.792 6.028 4.331 9.807 4.331 c 3.779 0 7.262 -1.538 9.808 -4.331 l 28.266 -31.013 l 4.434 4.042 L 59.241 49.138 C 55.599 53.135 50.408 55.427 45 55.427 z"/>
+    <rect fill="currentColor"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2} x="-0.96" y="57.16" rx="0" ry="0" width="38.98" height="6" transform="rotate(-45 18.5 60.2)"/>
+    <rect fill="currentColor"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2} x="68.47" y="40.67" rx="0" ry="0" width="6" height="38.98" transform="rotate(-45 71.5 60.2)"/>
+    </g>
   </svg>
 );
 
