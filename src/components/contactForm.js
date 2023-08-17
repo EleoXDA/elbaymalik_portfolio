@@ -68,7 +68,7 @@ export const ContactForm = ({ closeModal }) => {
             value={name}
             onChange={(e) => {
               setName(e.target.value);
-              setErrorMessage(''); // reset the error message
+              setErrorMessage('');
             }}
             type="text"
             placeholder="Your name"
@@ -84,7 +84,7 @@ export const ContactForm = ({ closeModal }) => {
             value={email}
             onChange={(e) => {
               setEmail(e.target.value);
-              setErrorMessage(''); // reset the error message
+              setErrorMessage('');
             }}            type="email"
             placeholder="name@example.com"
           />
@@ -98,7 +98,7 @@ export const ContactForm = ({ closeModal }) => {
             value={message}
             onChange={(e) => {
               setMessage(e.target.value);
-              setErrorMessage(''); // reset the error message
+              setErrorMessage('');
             }}          
           ></textarea>
         </div>
