@@ -68,7 +68,7 @@ const Navbar = () => {
 
   return (
     <header className="w-full flex items-center justify-between px-32 py-8 font-medium z-10 dark:text-light
-    lg:px-16 relative z-1 md:px-12 sm:px-8
+    lg:px-16 lg:py-10 relative z-1 md:py-10 md:px-12 sm:px-8 sm:py-10 sticky top-0 bg-light dark:bg-dark
     ">
       
       <button
