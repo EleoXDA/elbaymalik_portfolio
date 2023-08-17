@@ -60,8 +60,8 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>Elbay Malik</strong>, a web developer and
-                UI/UX designer with who thrives on creating beautiful,
+                Hi, I&apos;m <strong>Elbay Malik</strong>, a fullstack web
+                and mobile developer, who thrives on creating beautiful,
                 functional, and user-centered digital solutions. With 3+ years
                 of experience in the field, I always seek for new and
                 innovative ways to materialize my clients&apos; aspirations.
