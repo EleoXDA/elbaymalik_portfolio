@@ -1,8 +1,8 @@
 import FormData from 'form-data'
 import Mailgun from 'mailgun.js';
 
-const API_KEY = '80b6ed093679db9947e6d00270532f23-ee16bf1a-d6147cb1'
-const DOMAIN = 'sandbox46d49e2cb44d467c99842e48113d282e.mailgun.org'
+const API_KEY = process.env.MAILGUN_API_KEY
+const DOMAIN = process.env.MAILGUN_DOMAIN
 
 export default async function handler(
   req,
