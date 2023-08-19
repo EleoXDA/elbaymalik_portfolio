@@ -177,7 +177,7 @@ export default function Projects() {
         <Layout className="pt-16">
           <AnimatedText
             text="Where Knowledge Meets Creativity!"
-            className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+            className="mb-16 !text-6xl !leading-tight lg:!text-5xl sm:mb-8 sm:!text-4xl xs:!text-3xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
@@ -195,16 +195,16 @@ export default function Projects() {
                 type="Portfolio Website"
                 title="HTML-CSS-JS Portfolio Website"
                 img={proj4}
-                link="https://www.elbaymalik.site/"
+                link="https://eleoxda.github.io/portfolio_simple//"
                 github="https://github.com/EleoXDA/portfolio_simple"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Portfolio Website"
-                title="High Tech Responsive Portfolio"
+                title="Next.JS React Responsive Portfolio"
                 img={proj3}
-                link="https://elbaymalik-portfolio.vercel.app/"
+                link="https://www.elbaymalik.site/"
                 github="https://github.com/EleoXDA/elbaymalik_portfolio"
               />
             </div>
@@ -212,7 +212,7 @@ export default function Projects() {
               <FeaturedProject
                 type="Landing Page"
                 title="Landing Page with Nuxt3"
-                summary="This is an open-source portfolio template that can be used by anyone. It contains columns and rows that encapsulate details about person, contact information and links to the channels/posts/websites the user is active in."
+                summary="This is a landing page created with Nuxt3 VueJS and HTML-CSS. As a special request, no CSS framework was used in this page (no Tailwind, no Bootstrap, no Bulma, etc), and thus webpage is not fully responsive."
                 img={proj2}
                 link="https://landing-page-nuxt3.vercel.app/"
                 github="https://github.com/EleoXDA/Landing_page_nuxt3"
