@@ -1,5 +1,6 @@
 'use client'
 
+import { color } from 'framer-motion';
 import { useState } from 'react'
 import Confetti from 'react-confetti'
 
@@ -9,6 +10,7 @@ export const ContactForm = ({ closeModal }) => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [showConfirmation, setShowConfirmation] = useState(true);
 
   const onSubmit = async (e) => {
     e.preventDefault()
@@ -38,26 +40,25 @@ export const ContactForm = ({ closeModal }) => {
     }
   }
 
-  return isSubmitted ? (
+  return isSubmitted && showConfirmation ? (
     <div>
       <h1
-        className="text-center font-semibold text-3xl
-      "
-      >
-        Thank you for your message!
+        className="text-center px-7 font-semibold text-3xl relative min-w-[25vw] 2xl:min-w-[30vw] xl:min-w-[40vw] lg:min-w-[50vw] md:min-w-[55vw] sm:min-w-[70vw] flex justify-between text:dark dark:text-light items-center flex-col py-12 bg-light/80 dark:bg-dark/80 rounded-lg backdrop-blur-md">
+        Thank you for your message!<br />Please refresh the page to continue browsing.
+        <button onClick={() => { setShowConfirmation(false); closeModal(); }} className="absolute top-0 right-0 m-4 px-1 py-0.25 border-solid border-2 border-dark/70 text-dark/70 rounded-lg dark:text-light/70 dark:border-light/70 hover:border-dark hover:text-dark dark:hover:text-light dark:hover:border-light transition-all duration-300 ease-in-out absolute top-2.5 right-2.5 text-2xl">✗</button>
       </h1>
       <Confetti />
     </div>
   ) : (
     <div className="relative min-w-[25vw] 2xl:min-w-[30vw] xl:min-w-[40vw] lg:min-w-[50vw] md:min-w-[55vw] sm:min-w-[70vw] flex justify-between dark:text-dark items-center flex-col py-32 bg-light/80 dark:bg-dark/80 rounded-lg backdrop-blur-md">
-    <button 
-      onClick={closeModal}
-      className="absolute top-0 right-0 m-4 px-2.5 py-1 border-solid border-2 border-dark/40 text-dark/40 rounded-lg dark:text-light/40 dark:border-light/40 hover:border-dark hover:text-dark dark:hover:text-light dark:hover:border-light transition-all duration-300 ease-in-out">
-      X
-    </button>
+      <button 
+        onClick={closeModal}
+        className="absolute top-0 right-0 m-4 px-1 py-0.25 border-solid border-2 border-dark/70 text-dark/70 rounded-lg dark:text-light/70 dark:border-light/70 hover:border-dark hover:text-dark dark:hover:text-light dark:hover:border-light transition-all duration-300 ease-in-out absolute top-2.5 right-2.5 text-2xl">
+        ✗
+      </button>
       <form onSubmit={onSubmit} className="flex flex-col gap-8">
         <div className="">
-          <label className="label font-semibold">
+          <label className="label font-semibold text-dark dark:text-light">
             <span className="label-text">Full Name</span>
           </label>
           <input
@@ -73,7 +74,7 @@ export const ContactForm = ({ closeModal }) => {
           />
         </div>
         <div>
-          <label className="label font-semibold">
+        <label className="label font-semibold text-dark dark:text-light">
             <span className="label-text">Email</span>
           </label>
           <input
@@ -87,7 +88,7 @@ export const ContactForm = ({ closeModal }) => {
           />
         </div>
         <div>
-          <label className="label font-semibold">
+        <label className="label font-semibold text-dark dark:text-light">
             <span className="label-text">Message</span>
           </label>
           <textarea
@@ -97,6 +98,7 @@ export const ContactForm = ({ closeModal }) => {
               setMessage(e.target.value);
               setErrorMessage('');
             }}          
+            placeholder="Enter your message here"
           ></textarea>
         </div>
         {
@@ -106,7 +108,7 @@ export const ContactForm = ({ closeModal }) => {
             </div>
           )
         }
-        <button className="btn btn-primary px-2.5 py-1 border-solid border-2 border-dark/40 text-dark/40 rounded-lg dark:text-light/40 dark:border-light/40 hover:border-dark hover:text-dark dark:hover:text-light dark:hover:border-light transition-all duration-300 ease-in-out" type="submit">
+        <button className="btn btn-primary px-2.5 py-1 border-solid border-2 border-dark/70 text-dark/70 rounded-lg dark:text-light/70 dark:border-light/70 hover:border-dark hover:text-dark dark:hover:text-light dark:hover:border-light transition-all duration-300 ease-in-out" type="submit">
           Submit
         </button>
       </form>
