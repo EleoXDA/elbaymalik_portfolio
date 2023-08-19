@@ -49,13 +49,10 @@ export const ContactForm = ({ closeModal }) => {
       <Confetti />
     </div>
   ) : (
-    <div className="relative min-w-[25vw] 2xl:min-w-[30vw] xl:min-w-[40vw] lg:min-w-[50vw] md:min-w-[55vw] sm:min-w-[70vw] flex justify-between items-center flex-col py-32 bg-light/80 dark:bg-dark/80 rounded-lg backdrop-blur-md">
-    {/* Close button */}
+    <div className="relative min-w-[25vw] 2xl:min-w-[30vw] xl:min-w-[40vw] lg:min-w-[50vw] md:min-w-[55vw] sm:min-w-[70vw] flex justify-between dark:text-dark items-center flex-col py-32 bg-light/80 dark:bg-dark/80 rounded-lg backdrop-blur-md">
     <button 
       onClick={closeModal}
-      className="absolute top-0 right-0 m-4 px-2.5 py-1 border-solid border-2 border-dark/40 text-dark/40 rounded-lg dark:text-light/40 dark:border-light/40 hover:border-dark hover:text-dark dark:hover:text-light dark:hover:border-light transition-all duration-300 ease-in-out"
-
-    >
+      className="absolute top-0 right-0 m-4 px-2.5 py-1 border-solid border-2 border-dark/40 text-dark/40 rounded-lg dark:text-light/40 dark:border-light/40 hover:border-dark hover:text-dark dark:hover:text-light dark:hover:border-light transition-all duration-300 ease-in-out">
       X
     </button>
       <form onSubmit={onSubmit} className="flex flex-col gap-8">
