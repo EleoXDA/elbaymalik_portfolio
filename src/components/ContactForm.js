@@ -44,7 +44,7 @@ export const ContactForm = ({ closeModal }) => {
     <div>
       <h1
         className="text-center px-7 font-semibold text-3xl relative min-w-[25vw] 2xl:min-w-[30vw] xl:min-w-[40vw] lg:min-w-[50vw] md:min-w-[55vw] sm:min-w-[70vw] flex justify-between text:dark dark:text-light items-center flex-col py-12 bg-light/80 dark:bg-dark/80 rounded-lg backdrop-blur-md">
-        Thank you for your message!<br />Please refresh the page to continue browsing.
+        Thank you for your message!<br />Please close this pop-up to continue browsing.
         <button onClick={() => { setShowConfirmation(false); closeModal(); }} className="absolute top-0 right-0 m-4 px-1 py-0.25 border-solid border-2 border-dark/70 text-dark/70 rounded-lg dark:text-light/70 dark:border-light/70 hover:border-dark hover:text-dark dark:hover:text-light dark:hover:border-light transition-all duration-300 ease-in-out absolute top-2.5 right-2.5 text-2xl">✗</button>
       </h1>
       <Confetti />
