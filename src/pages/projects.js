@@ -195,7 +195,7 @@ export default function Projects() {
                 type="Portfolio Website"
                 title="HTML-CSS-JS Portfolio Website"
                 img={proj4}
-                link="https://eleoxda.github.io/portfolio_simple//"
+                link="https://eleoxda.github.io/portfolio_simple"
                 github="https://github.com/EleoXDA/portfolio_simple"
               />
             </div>
