@@ -54,8 +54,6 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
   );
 };
 
-
-
 const Navbar = () => {
   const [mode, setMode] = useThemeSwitch();
     const [isOpen, setIsOpen] = useState(false);
@@ -63,8 +61,6 @@ const Navbar = () => {
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
-
-
 
   return (
     <header className="w-full flex items-center justify-between px-32 py-6 font-medium z-10 dark:text-light
