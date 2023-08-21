@@ -180,7 +180,7 @@ export default function Projects() {
             className="mb-16 !text-6xl !leading-tight lg:!text-5xl sm:mb-8 sm:!text-4xl xs:!text-3xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-            <div className="col-span-12">
+            <div className="col-span-8 xl:col-span-12">
               <FeaturedProject
                 type="Featured Project"
                 title="Dribble for Developers"
@@ -190,7 +190,7 @@ export default function Projects() {
                 github="https://github.com/EleoXDA/dribble-for-devs"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-4 xl:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
                 type="Portfolio Website"
                 title="HTML-CSS-JS Portfolio Website"
@@ -199,7 +199,7 @@ export default function Projects() {
                 github="https://github.com/EleoXDA/portfolio_simple"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-4 xl:col-span-6 lg:col-span-6 sm:col-span-12">
               <Project
                 type="Portfolio Website"
                 title="Next.JS React Responsive Portfolio"
@@ -208,7 +208,7 @@ export default function Projects() {
                 github="https://github.com/EleoXDA/elbaymalik_portfolio"
               />
             </div>
-            <div className="col-span-12">
+            <div className="col-span-8 xl:col-span-12">
               <FeaturedProject
                 type="Landing Page"
                 title="Landing Page with Nuxt3"
@@ -218,13 +218,13 @@ export default function Projects() {
                 github="https://github.com/EleoXDA/Landing_page_nuxt3"
               />
             </div>
-            <h2 className="col-span-12 text-4xl font-bold text-center">And many many more in my <Link
-            href="https://github.com/EleoXDA"
-            target="_blank"
-            className="underline underline-offset-2"
-          >
-            GitHub page
-          </Link></h2>
+            <div className="col-span-12">
+
+              <h2 className="text-4xl font-bold text-center">And many many more in my <Link
+              href="https://github.com/EleoXDA"
+              target="_blank"
+              className="underline underline-offset-2">GitHub page</Link></h2>
+            </div>
           </div>
         </Layout>
       </main>
