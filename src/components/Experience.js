@@ -97,14 +97,20 @@ const Experience = () => {
               address="August-Bebel-Str. 28, 14482 Potsdam."
               work={[
                 "• Development of new Frontend: With Vue.JS and Nuxt.JS, a new frontend is being prepared for 'Am I in Porn' website that integrates face detection backend with surveillance.",
-                "• Tech stack: Next.JS, React, Node.JS, Tailwind.CSS, GitHub, CI-CD" 
-
               ].map((line, index) => (
                 <React.Fragment key={index}>
                   {line}
                   <br/>
                 </React.Fragment>
-              ))} 
+              ))}
+              techstack={[
+                "• Tech stack: Next.JS, React, Node.JS, Tailwind.CSS, GitHub, CI-CD" 
+              ].map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br/>
+                </React.Fragment>
+              ))}
             />
           </ul>
         </div>
