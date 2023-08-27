@@ -48,7 +48,7 @@ export default function Home() {
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As a skilled fullstack developer, I am dedicated to turning ideas into innovative web or mobile applications. Explore my latest projects, showcasing my expertise in fullstack web development.
+              As a skilled fullstack developer, I am dedicated to turning ideas into innovative web or mobile applications. Changing my career from Science has brought meticulous project management, relentless problem-solving, and efficient time coordination with it, that I incorporate to my development endeavours. Explore my latest projects, showcasing my expertise in fullstack web development.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
