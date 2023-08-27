@@ -19,20 +19,20 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+        <h3 className="mb-3 capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}{" "}
           <a
-            className="capitalize text-primary dark:text-primaryDark"
+            className="mb-3 capitalize text-primary dark:text-primaryDark"
             href={companyLink}
             target={"_blank"}
           >
             @{company}
           </a>
         </h3>
-        <span className="capitalize text-dark/75 font-medium dark:text-light/50 xs:text-sm">
+        <span className="mb-3 capitalize text-dark/75 font-medium dark:text-light/50 xs:text-sm">
           {time} | {address}
         </span>
-        <p className="font-medium w-full md:text-sm"> {work}</p>
+        <p className="mb-3 font-medium w-full md:text-sm"> {work}</p>
       </motion.div>
     </li>
   );
@@ -82,7 +82,7 @@ const Experience = () => {
             <Details
               position="Research Assistant as a Junior Researcher"
               company="Institute of Biophysics"
-              companyLink="https://www.uni-jena.de/"
+              companyLink="https://www.biophysics.az/en/"
               time="11/2018-10/2019"
               address="Baku, Azerbaijan."
               work={[
@@ -99,7 +99,7 @@ const Experience = () => {
             <Details
               position="Research Assistant as an MSc Student"
               company="Middle East Technical University"
-              companyLink="https://www.uni-jena.de/"
+              companyLink="https://www.metu.edu.tr/"
               time="09/2014-12/2017"
               address="Ankara, Turkey."
               work={[
