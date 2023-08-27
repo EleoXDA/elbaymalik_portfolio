@@ -6,7 +6,7 @@ import {
 import LiIcon from "./LiIcon";
 
 
-const Details = ({ position, company, companyLink, time, address, work }) => {
+const Details = ({ position, company, companyLink, time, address, work, techstack }) => {
   const ref = useRef(null);
   return (
     <li
@@ -33,6 +33,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
           {time} | {address}
         </span>
         <p className="font-medium w-full md:text-sm"> {work}</p>
+        <p className="font-bold w-full md:text-sm"> {techstack}</p>
       </motion.div>
     </li>
   );
@@ -51,7 +52,7 @@ const Experience = () => {
 
       <div className="my-64">
         <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
-          Latest Experience
+          Relevant Experience
         </h2>
 
         <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
@@ -61,40 +62,49 @@ const Experience = () => {
             style={{ scaleY: scrollYProgress }}
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-            <Details
-              position="Freelance Web Developer"
-              company="Freelance.de and XDA-Developers"
-              companyLink=""
-              time="04/2023-Present"
-              address="Online"
-              work="Worked with several projects ranging from mobile apps till websites/web projects. Tech Stack: JavaScript/Typescript, NextJS, NuxtJS, Flutter, Dart, Widget Tester, Ruby on Rails, RSpec"
-            />
-
-            <Details
-              position="Cross-Platform Developer"
+          <Details
+              position="Junior Developer"
               company="koviko GmbH"
               companyLink="https://www.koviko.de/"
               time="11/2022-04/2023"
               address="August-Bebel-Str. 28, 14482 Potsdam."
-              work="Responsible for building a cross-platform app for learning German language using Flutter/Dart and PHP backend with Yii framework. Tech Stack: Flutter, Dart, PHP, Yii, GitLab, CI CD, Hive database, BLoC pattern, Widget Tester"
+              work={[
+                "• Implemented a usage statistic tracking system, which empowered over 10 hospitals to monitor and enhance their staff's language proficiency progression in real-time.", 
+                "• Integrated an update notification page, ensuring users always experience the latest app and assets with BLoC pattern. Reports decreased by 40% due to usage of latest app, which in turn enhanced user experience.",
+                "• Proactively identified and rectified 30+ app bugs within 6 months, elevating overall user ratings by 15%.",
+                "• Designed and integrated a user-focused greeting page, which contained signing up/in and accepting terms and conditions before app access by using Hive database.",
+              ].map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br/>
+                </React.Fragment>
+              ))}
+              techstack={[
+                "• Tech stack: Flutter, Dart, PHP. Hive DB, BLoC, Gitlab, CI-CD" 
+              ].map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br/>
+                </React.Fragment>
+              ))}
             />
 
             <Details
-              position="Freelance Web Developer"
-              company="Freelance.de and XDA-Developers"
-              companyLink=""
-              time="04/2022-11/2022"
-              address="Online"
-              work="Worked with several projects ranging from mobile apps till websites/web projects. Tech Stack: JavaScript/Typescript, NextJS, NuxtJS, Flutter, Dart, Widget Tester, Ruby on Rails, RSpec"
-            />
+              position="Volunteer Frontend Developer"
+              company="Digital Dignity - Am I in Porn?"
+              companyLink="https://www.amiinporn.org/"
+              time="04/2023-present"
+              address="August-Bebel-Str. 28, 14482 Potsdam."
+              work={[
+                "• Development of new Frontend: With Vue.JS and Nuxt.JS, a new frontend is being prepared for 'Am I in Porn' website that integrates face detection backend with surveillance.",
+                "• Tech stack: Next.JS, React, Node.JS, Tailwind.CSS, GitHub, CI-CD" 
 
-            <Details
-              position="Project Assistant"
-              company="Friedrich-Schiller-Universität Jena"
-              companyLink="https://www.uni-jena.de/"
-              time="10/2019-04/2022"
-              address="Fürstengraben 1, 07743 Jena."
-              work="Increased effectivity of CPU and GPU preparation on silicon chips. Managed project budget for 30 months and increased cost effectivity by 15%. Demonstrated strong writing skills in original correspondence and reports."
+              ].map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br/>
+                </React.Fragment>
+              ))} 
             />
           </ul>
         </div>
