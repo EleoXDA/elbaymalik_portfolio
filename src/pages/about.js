@@ -6,6 +6,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
+import Science from "@/components/Science";
 import Education from "@/components/Education";
 import AnimatedText from "@/components/AnimatedText";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -60,24 +61,11 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>Elbay Malik</strong>, a fullstack web
-                and mobile developer, who thrives on creating beautiful,
-                functional, and user-centered digital solutions. With 3+ years
-                of experience in the field, I always seek for new and
-                innovative ways to materialize my clients&apos; aspirations.
-              </p>
-              <p className="my-4 font-medium">
-                I believe that design is about more than just aesthetics – it&apos;s 
-                about solving problems and creating intuitive, enjoyable 
-                experiences for users.
-              </p>
+              Swapping science for the IT was more than a career move—it represented a synthesis of my analytical strengths with a newfound digital passion. My foundation in nanotechnology taught me precision, a detail-oriented mindset, and the tenacity to solve intricate problems.</p>
+              <p className="my-2 font-medium">
+              The skills I gathered while navigating the challenges of scientific research—like meticulous project management, relentless problem-solving, and efficient time coordination—now empower my web development endeavors. As I dive deep into JavaScript frameworks and Flutter, I bring along a reservoir of transferable skills that elevate my work beyond the ordinary.</p>
               <p className="font-medium">
-                Be it a web platform, mobile application, or any digital 
-                creation, I bring my commitment to design excellence and
-                user-centered mindset to every project I work on. I look
-                forward to the opportunity to bring my expertise and passion 
-                to your upcoming project.
-              </p>
+              Today, every line of code I write, every interface I design, is not just the output of technical proficiency, but also a culmination of my multifaceted experiences. I stand as a testament to what happens when scientific rigor meets digital creativity, and I&apos;m excited for the many more intersections to come.</p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
             bg-light p-8 dark:border-light dark:bg-dark
@@ -134,6 +122,7 @@ export default function About() {
 
           <Skills />
           <Experience />
+          <Science />
           <Education />
         </Layout>
       </main>
