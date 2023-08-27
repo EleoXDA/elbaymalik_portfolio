@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import proj0 from "../../public/images/projects/Project0.png";
 import proj1 from "../../public/images/projects/Project4.png";
 import proj2 from "../../public/images/projects/Project2.png";
 import proj3 from "../../public/images/projects/Project3.png";
@@ -136,12 +137,13 @@ const Project = ({ title, type, img, link, github }) => {
           <Link
             href={link}
             target={"_blank"}
-            className="rounded text-lg
-            font-medium underline md:text-base
-            "
+            className="ml-0 rounded-lg
+            bg-dark p-2 px-6 text-lg font-semibold text-light dark:bg-light dark:text-dark 
+            sm:px-4 sm:text-base
+           "
             aria-label={title}
           >
-            Visit
+            Visit Project
           </Link>
           <Link
             href={github}
@@ -183,11 +185,11 @@ export default function Projects() {
             <div className="col-span-8 xl:col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="Dribble for Developers"
-                summary="This website is created for developers to share their websites/applications so that other developers can appreciate it and/or follow/star them in GitHub."
-                img={proj1}
-                link="https://dev-dribble.vercel.app/"
-                github="https://github.com/EleoXDA/dribble-for-devs"
+                title="GenAIaaS"
+                summary="Generative AI as a Service (GenAIaaS) is a web application that allows users to chat or generate media using AI"
+                img={proj0}
+                link="https://a-iaa-s-app-nextjs.vercel.app"
+                github="https://github.com/EleoXDA/AIaaS_app_nextjs"
               />
             </div>
             <div className="col-span-4 xl:col-span-6 lg:col-span-6 sm:col-span-12">
@@ -210,16 +212,24 @@ export default function Projects() {
             </div>
             <div className="col-span-8 xl:col-span-12">
               <FeaturedProject
+                type="Featured Project"
+                title="Dribble for Developers"
+                summary="This website is created for developers to share their websites/applications so that other developers can appreciate it and/or follow/star them in GitHub."
+                img={proj1}
+                link="https://dev-dribble.vercel.app/"
+                github="https://github.com/EleoXDA/dribble-for-devs"
+              />
+            </div>
+            <div className="col-span-4 xl:col-span-6 lg:col-span-6 sm:col-span-12">
+              <Project
                 type="Landing Page"
                 title="Landing Page with Nuxt3"
-                summary="This is a landing page created with Nuxt3 VueJS and HTML-CSS. As a special request, no CSS framework was used in this page (no Tailwind, no Bootstrap, no Bulma, etc), and thus webpage is not fully responsive."
                 img={proj2}
                 link="https://landing-page-nuxt3.vercel.app/"
                 github="https://github.com/EleoXDA/Landing_page_nuxt3"
               />
             </div>
             <div className="col-span-12">
-
               <h2 className="text-4xl font-bold text-center">And many many more in my <Link
               href="https://github.com/EleoXDA"
               target="_blank"
