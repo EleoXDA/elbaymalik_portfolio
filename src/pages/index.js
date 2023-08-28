@@ -20,10 +20,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Elbay Malik Portfolio</title>
+        <title>Elbay Malik - Portfolio</title>
         <meta
           name="description"
-          content="Explore Elbay's Next developer portfolio."
+          content="Elbay Malik - Portfolio."
         />
       </Head>
 
@@ -45,14 +45,14 @@ export default function Home() {
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
                 text="From Concept to Creation: Crafting with Code and Design."
-                className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
+                className="!text-left !text-5xl xl:!text-4xl lg:!text-center lg:!text-5xl md:!text-4xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
               As a skilled fullstack developer, I am dedicated to turning ideas into innovative web or mobile applications. Changing my career from Science has brought meticulous project management, relentless problem-solving, and efficient time coordination with it, that I incorporate to my development endeavours. Explore my latest projects, showcasing my expertise in fullstack web development.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="https://drive.google.com/file/d/1oJ9H7wGFC-Ix0OQwowjJqNOquIBNtO_V/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1v7jPT0lFfWGKjlbL2AYqm8Hpp9tGfmGw/view"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
                               capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
