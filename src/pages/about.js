@@ -57,14 +57,14 @@ export default function About() {
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
             md:col-span-8">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+              <h2 className="mb-4 text-3xl font-bold uppercase text-dark/75 dark:text-light/75">
                 BIOGRAPHY
               </h2>
-              <p className="font-medium ">
-              Swapping science for the IT was more than a career move—it represented a synthesis of my analytical strengths with a newfound digital passion. My foundation in nanotechnology taught me precision, a detail-oriented mindset, and the tenacity to solve intricate problems.</p>
-              <p className="my-2 font-medium">
-              The skills I gathered while navigating the challenges of scientific research—like meticulous project management, relentless problem-solving, and efficient time coordination—now empower my web development endeavors. As I dive deep into JavaScript frameworks and Flutter, I bring along a reservoir of transferable skills that elevate my work beyond the ordinary.</p>
-              <p className="font-medium">
+              <p className="font-medium 4xl:text-xl 3xl:text-lg 2xl:text-base">
+              Swapping science for the IT was more than a career move — it represented a synthesis of my analytical strengths with a newfound digital passion. My foundation in nanotechnology taught me precision, a detail-oriented mindset, and the tenacity to solve intricate problems.</p>
+              <p className="my-2 font-medium 4xl:text-xl 3xl:text-lg 2xl:text-base">
+              The skills I gathered — like meticulous project management, relentless problem-solving, and efficient time coordination — now empower my web development endeavors.</p>
+              <p className="font-medium 4xl:text-xl 3xl:text-lg 2xl:text-base">
               Today, every line of code I write, every interface I design, is not just the output of technical proficiency, but also a culmination of my multifaceted experiences. I stand as a testament to what happens when scientific rigor meets digital creativity, and I&apos;m excited for the many more intersections to come.</p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
@@ -88,15 +88,6 @@ export default function About() {
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
             xl:items-center md:order-3">
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={40} />+
-                </span>
-                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  satisfied clients
-                </h2>
-              </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
@@ -110,7 +101,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={4} />+
+                  <AnimatedNumberFramerMotion value={2} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
