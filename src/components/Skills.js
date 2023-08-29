@@ -13,7 +13,7 @@ const Skill = ({ name, x, y }) => {
       viewport={{ once: true }}
       className="cursor-pointer w-max origin-center absolute font-bold 
        font-semibold bg-dark text-light py-3 px-6 rounded-full dark:bg-light dark:text-dark
-       4xl:text-3xl 4xl:px-10 4xl:py-12 3xl:text-2xl 3xl:py-8 3xl:px-10 2xl:text-2xl 2xl:py-6 2xl:px-8 xl:py-4 xl:px-6 lg:py-3 lg:px-5 md:text-sm md:py-2 md:px-4  
+       4xl:text-2xl 4xl:px-9 4xl:py-11 3xl:text-2xl 3xl:py-8 3xl:px-10 2xl:text-2xl 2xl:py-6 2xl:px-8 xl:py-4 xl:px-6 lg:py-3 lg:px-5 md:text-sm md:py-2 md:px-4  
        xs:py-0.5 xs:px-1
        "
     >
