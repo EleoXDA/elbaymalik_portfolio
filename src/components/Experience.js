@@ -63,6 +63,29 @@ const Experience = () => {
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+              position="VOLUNTEER Frontend Developer"
+              company="Digital Dignity - Am I in Porn?"
+              companyLink="https://www.amiinporn.org/"
+              time="04/2023-present"
+              address="August-Bebel-Str. 28, 14482 Potsdam."
+              work={[
+                "• Development of new Frontend: With Vue.JS and Nuxt.JS, a new frontend is being prepared for 'Am I in Porn' website that integrates face detection backend with surveillance.",
+              ].map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br/>
+                </React.Fragment>
+              ))}
+              techstack={[
+                "• Tech stack: Next.JS, React, Node.JS, Tailwind.CSS, GitHub, CI-CD" 
+              ].map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br/>
+                </React.Fragment>
+              ))}
+            />
+          <Details
               position="Junior Developer"
               company="koviko GmbH"
               companyLink="https://www.koviko.de/"
@@ -81,30 +104,6 @@ const Experience = () => {
               ))}
               techstack={[
                 "• Tech stack: Flutter, Dart, PHP, Hive DB, BLoC, Gitlab, CI-CD" 
-              ].map((line, index) => (
-                <React.Fragment key={index}>
-                  {line}
-                  <br/>
-                </React.Fragment>
-              ))}
-            />
-
-            <Details
-              position="Volunteer Frontend Developer"
-              company="Digital Dignity - Am I in Porn?"
-              companyLink="https://www.amiinporn.org/"
-              time="04/2023-present"
-              address="August-Bebel-Str. 28, 14482 Potsdam."
-              work={[
-                "• Development of new Frontend: With Vue.JS and Nuxt.JS, a new frontend is being prepared for 'Am I in Porn' website that integrates face detection backend with surveillance.",
-              ].map((line, index) => (
-                <React.Fragment key={index}>
-                  {line}
-                  <br/>
-                </React.Fragment>
-              ))}
-              techstack={[
-                "• Tech stack: Next.JS, React, Node.JS, Tailwind.CSS, GitHub, CI-CD" 
               ].map((line, index) => (
                 <React.Fragment key={index}>
                   {line}
