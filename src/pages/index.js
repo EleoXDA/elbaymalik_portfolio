@@ -43,7 +43,7 @@ export default function Home() {
                 className="!text-left !text-5xl xl:!text-4xl lg:!text-center lg:!text-5xl md:!text-4xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As a skilled fullstack developer, I am dedicated to turning ideas into innovative web or mobile applications. Changing my career from Science has brought meticulous project management, relentless problem-solving, and efficient time coordination with it, that I incorporate to my development endeavours. Explore my latest projects, showcasing my expertise in fullstack web development.
+              As a dedicated frontend developer, I specialize in transforming ideas into innovative and user-focused web applications. Transitioning from a scientific background, I bring strong analytical skills, meticulous attention to detail, and a problem-solving mindset to every project. Explore my latest projects, showcasing my expertise in modern frontend technologies and creating exceptional user experiences.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
