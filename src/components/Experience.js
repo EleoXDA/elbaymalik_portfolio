@@ -26,7 +26,7 @@ const Details = ({
         <h3 className="mb-3 capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}{" "}
           <a
-            className="capitalize text-primary dark:text-primaryDark"
+            className="text-primary dark:text-primaryDark"
             href={companyLink}
             target={"_blank"}
           >
