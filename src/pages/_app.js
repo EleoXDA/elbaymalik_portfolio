@@ -1,6 +1,5 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import Statcounter from '@/components/Statcounter';
 import "@/styles/globals.css";
 import { AnimatePresence } from "framer-motion";
 import { Montserrat } from "next/font/google";
@@ -26,7 +25,6 @@ export default function App({ Component, pageProps }) {
           <Component key={router.asPath} {...pageProps} />
         </AnimatePresence>
         <Footer />
-        <Statcounter />
       </main>
     </>
   );

@@ -29,10 +29,23 @@ export const LinkedInIcon = ({ className, ...rest }) => (
   >
     <path fill="none" d="M0 0h256v256H0z" />
     <g fill="none">
-      <rect width={256} height={256} fill="#fff" className="fill-dark dark:fill-light" rx={60} />
-      <rect width={256} height={256} fill="#000" className="fill-dark dark:fill-light" rx={60} />
+      <rect
+        width={256}
+        height={256}
+        fill="#fff"
+        className="fill-dark dark:fill-light"
+        rx={60}
+      />
+      <rect
+        width={256}
+        height={256}
+        fill="#000"
+        className="fill-dark dark:fill-light"
+        rx={60}
+      />
       <path
-        fill="#fff" className="fill-light dark:fill-dark"
+        fill="#fff"
+        className="fill-light dark:fill-dark"
         d="M184.715 217.685h29.27a4 4 0 0 0 4-3.999l.015-61.842c0-32.323-6.965-57.168-44.738-57.168-14.359-.534-27.9 6.868-35.207 19.228a.32.32 0 0 1-.595-.161V101.66a4 4 0 0 0-4-4h-27.777a4 4 0 0 0-4 4v112.02a4 4 0 0 0 4 4h29.268a4 4 0 0 0 4-4v-55.373c0-15.657 2.97-30.82 22.381-30.82 19.135 0 19.383 17.916 19.383 31.834v54.364a4 4 0 0 0 4 4ZM38 59.627c0 11.865 9.767 21.627 21.632 21.627 11.862-.001 21.623-9.769 21.623-21.631C81.253 47.761 71.491 38 59.628 38 47.762 38 38 47.763 38 59.627Zm6.959 158.058h29.307a4 4 0 0 0 4-4V101.66a4 4 0 0 0-4-4H44.959a4 4 0 0 0-4 4v112.025a4 4 0 0 0 4 4Z"
       />
     </g>
@@ -564,35 +577,59 @@ export const LinkArrow = ({ className, ...rest }) => (
 );
 
 export const Mail = ({ className, ...rest }) => (
-<svg
+  <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
     height={24}
     viewBox="0 0 24 24"
     className={`w-full h-auto ${className}`}
     {...rest}
-  ><g transform="scale(0.26)">
-    <path fill="currentColor"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2} d="M 80.89 78.772 H 9.11 c -5.023 0 -9.11 -4.087 -9.11 -9.11 V 20.338 c 0 -5.023 4.087 -9.11 9.11 -9.11 h 71.78 c 5.023 0 9.11 4.087 9.11 9.11 v 49.324 C 90 74.686 85.913 78.772 80.89 78.772 z M 9.11 17.228 c -1.715 0 -3.11 1.396 -3.11 3.11 v 49.324 c 0 1.715 1.395 3.11 3.11 3.11 h 71.78 c 1.715 0 3.11 -1.396 3.11 -3.11 V 20.338 c 0 -1.715 -1.396 -3.11 -3.11 -3.11 H 9.11 z"/>
-    <path fill="currentColor"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2} d="M 45 55.427 c -5.408 0 -10.599 -2.292 -14.242 -6.288 L 2.493 18.125 l 4.435 -4.042 l 28.265 31.013 c 2.545 2.792 6.028 4.331 9.807 4.331 c 3.779 0 7.262 -1.538 9.808 -4.331 l 28.266 -31.013 l 4.434 4.042 L 59.241 49.138 C 55.599 53.135 50.408 55.427 45 55.427 z"/>
-    <rect fill="currentColor"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2} x="-0.96" y="57.16" rx="0" ry="0" width="38.98" height="6" transform="rotate(-45 18.5 60.2)"/>
-    <rect fill="currentColor"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2} x="68.47" y="40.67" rx="0" ry="0" width="6" height="38.98" transform="rotate(-45 71.5 60.2)"/>
+  >
+    <g transform="scale(0.26)">
+      <path
+        fill="currentColor"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M 80.89 78.772 H 9.11 c -5.023 0 -9.11 -4.087 -9.11 -9.11 V 20.338 c 0 -5.023 4.087 -9.11 9.11 -9.11 h 71.78 c 5.023 0 9.11 4.087 9.11 9.11 v 49.324 C 90 74.686 85.913 78.772 80.89 78.772 z M 9.11 17.228 c -1.715 0 -3.11 1.396 -3.11 3.11 v 49.324 c 0 1.715 1.395 3.11 3.11 3.11 h 71.78 c 1.715 0 3.11 -1.396 3.11 -3.11 V 20.338 c 0 -1.715 -1.396 -3.11 -3.11 -3.11 H 9.11 z"
+      />
+      <path
+        fill="currentColor"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M 45 55.427 c -5.408 0 -10.599 -2.292 -14.242 -6.288 L 2.493 18.125 l 4.435 -4.042 l 28.265 31.013 c 2.545 2.792 6.028 4.331 9.807 4.331 c 3.779 0 7.262 -1.538 9.808 -4.331 l 28.266 -31.013 l 4.434 4.042 L 59.241 49.138 C 55.599 53.135 50.408 55.427 45 55.427 z"
+      />
+      <rect
+        fill="currentColor"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        x="-0.96"
+        y="57.16"
+        rx="0"
+        ry="0"
+        width="38.98"
+        height="6"
+        transform="rotate(-45 18.5 60.2)"
+      />
+      <rect
+        fill="currentColor"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        x="68.47"
+        y="40.67"
+        rx="0"
+        ry="0"
+        width="6"
+        height="38.98"
+        transform="rotate(-45 71.5 60.2)"
+      />
     </g>
   </svg>
 );
-

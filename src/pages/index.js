@@ -9,22 +9,17 @@ import Link from "next/link";
 import lightBulb from "../../public/images/ElbayMalik.png";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import TransitionEffect from "@/components/TransitionEffect";
-import { useState } from 'react';
+import { useState } from "react";
 import { ContactForm } from "../components/ContactForm";
 
-
-
 export default function Home() {
-  const [showModal, setShowModal] = useState(false); 
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <>
       <Head>
         <title>Elbay Malik - Portfolio</title>
-        <meta
-          name="description"
-          content="Elbay Malik - Portfolio."
-        />
+        <meta name="description" content="Elbay Malik - Portfolio." />
       </Head>
 
       <TransitionEffect />
@@ -52,7 +47,7 @@ export default function Home() {
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="https://drive.google.com/file/d/1zLIw6FZrgJTAkjMQ9bU7etNnn1NepU9e/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1kRvTsoDO4rztXkBua5bxvr_CtltKsjmi/view"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
                               capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
@@ -80,15 +75,11 @@ export default function Home() {
 
         <HireMe />
         <div className="absolute right-8 bottom-8 inline-block w-64 md:hidden">
-          <Image
-            className="relative h-auto w-full"
-            src={lightBulb}
-            alt=""
-          />
+          <Image className="relative h-auto w-full" src={lightBulb} alt="" />
         </div>
         {showModal && (
           <div className="fixed inset-0 flex items-center justify-center z-50">
-              <ContactForm closeModal={() => setShowModal(false)} />
+            <ContactForm closeModal={() => setShowModal(false)} />
           </div>
         )}
       </article>

@@ -63,13 +63,10 @@ const Education = () => {
             time="2014-2017"
             place="Middle East Technical University (METU)"
             info={[
-              "• Development of 3D wet-spun PCL scaffolds for bone tissue engineering", 
-              "• Addition of hydroxyapatite to improve mechanical properties and bioactivity",
-              "• Surface modification with AAc and gelatin to improve cell adhesion and proliferation",
-              "• Gelatin microvesicles were added for controlled release of antibacterial agents",
-              "• Characterization of scaffolds with SEM, XPS, and mechanical tester",
-              "• Cell culture and cell viability tests with Saos-2 osteosarcoma cell liness",
-            ].map((line, index) => (
+              "• Gained expertise in statistical analysis, data interpretation, and presentation, applicable to development workflows.",
+              "• Managed multiple interdisciplinary projects, fostering strong organizational and problem-solving skills.",
+              "• Developed an analytical mindset through rigorous research, now applied to debugging and optimization tasks.",
+                      ].map((line, index) => (
               <React.Fragment key={index}>
                 {line}
                 <br/>
@@ -81,9 +78,7 @@ const Education = () => {
             time="2008-2013"
             place="Middle East Technical University (METU)"
             info={[
-              "• Basics of Scientific Research and Presentation", 
-              "• Lab internship in the field of Molecular Biology",
-              "• Biomaterials and Tissue Engineering courses for Master studies",
+              "• Basics of Scientific Research, Result Evaluation, Statistical Analysis, and Presentation.",
             ].map((line, index) => (
               <React.Fragment key={index}>
                 {line}

@@ -113,8 +113,8 @@ export default function About() {
 
           <Skills />
           <Experience />
-          <Science />
           <Education />
+          <Science />
         </Layout>
       </main>
     </>
