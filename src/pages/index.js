@@ -39,15 +39,22 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="From Concept to Creation: Crafting with Code and Design."
+                text="From Concept to Creation: Merging Precision with Innovation."
                 className="!text-left !text-5xl xl:!text-4xl lg:!text-center lg:!text-5xl md:!text-4xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As a dedicated frontend developer, I specialize in transforming ideas into innovative and user-focused web applications. Transitioning from a scientific background, I bring strong analytical skills, meticulous attention to detail, and a problem-solving mindset to every project. Explore my latest projects, showcasing my expertise in modern frontend technologies and creating exceptional user experiences.
+                As a skilled frontend developer with six years of experience, I
+                specialize in crafting scalable and user-focused web
+                applications. Leveraging my scientific background, I bring
+                analytical precision, a meticulous approach to detail, and a
+                problem-solving mindset to every project. Explore my latest
+                projects, where cutting-edge frontend technologies meet creative
+                design to deliver exceptional user experiences and impactful
+                solutions.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="https://drive.google.com/file/d/1kRvTsoDO4rztXkBua5bxvr_CtltKsjmi/view"
+                  href="https://drive.google.com/file/d/1CXEcx6G-WmU9oueHVYoHZeLixtbEOkog/view"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
                               capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 

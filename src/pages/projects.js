@@ -15,7 +15,6 @@ import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
-
   return (
     <article
       className="relative flex w-full items-center  justify-between rounded-3xl rounded-br-2xl border
@@ -89,7 +88,6 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
 };
 
 const Project = ({ title, type, img, link, github }) => {
-
   return (
     <article
       className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl 
@@ -181,6 +179,14 @@ export default function Projects() {
             text="Where Knowledge Meets Creativity!"
             className="mb-16 !text-6xl !leading-tight lg:!text-5xl sm:mb-8 sm:!text-4xl xs:!text-3xl"
           />
+          <p className="font-medium 4xl:text-xl 3xl:text-lg 2xl:text-base mb-16">
+            While working full-time throughout my career, I had limited
+            opportunities to actively maintain open-source projects. However, I
+            was still able to contribute and build several open-source projects
+            in the past. Feel free to explore them if you are interested in
+            seeing some of my earlier work and contributions to the developer
+            community.
+          </p>
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-8 xl:col-span-12">
               <FeaturedProject
@@ -220,20 +226,27 @@ export default function Projects() {
                 github="https://github.com/EleoXDA/dribble-for-devs"
               />
             </div>
-            <div className="col-span-4 xl:col-span-6 lg:col-span-6 sm:col-span-12">
-              <Project
+            <div className="col-span-8 xl:col-span-12">
+              <FeaturedProject
                 type="Landing Page"
                 title="Landing Page with Nuxt3"
+                summary="This projects was specifically created for a job application. However, to maintain fairness and prevent other applicants from copying the code, the project had to be terminated after the application process. Despite its short-lived existence, the project showcased my ability to quickly deliver a robust and innovative solution under strict requirements and tight deadlines."
                 img={proj2}
                 link="https://landing-page-nuxt3.vercel.app/"
                 github="https://github.com/EleoXDA/Landing_page_nuxt3"
               />
             </div>
             <div className="col-span-12">
-              <h2 className="text-4xl font-bold text-center">And many many more in my <Link
-              href="https://github.com/EleoXDA"
-              target="_blank"
-              className="underline underline-offset-2">GitHub page</Link></h2>
+              <h2 className="text-4xl font-bold text-center">
+                And many many more in my{" "}
+                <Link
+                  href="https://github.com/EleoXDA"
+                  target="_blank"
+                  className="underline underline-offset-2"
+                >
+                  GitHub page
+                </Link>
+              </h2>
             </div>
           </div>
         </Layout>

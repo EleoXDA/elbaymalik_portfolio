@@ -40,9 +40,12 @@ export default function About() {
     <>
       <Head>
         <title>Elbay Malik Portfolio | About Page</title>
-        <meta name="description" content="Learn more about Elbay Malik, a Next.js developer with a passion for 
+        <meta
+          name="description"
+          content="Learn more about Elbay Malik, a Next.js developer with a passion for 
         creating innovative solutions. Discover tips for building a developer portfolio and insights on 
-        fullstack development, front-end development, and back-end development." />
+        fullstack development, front-end development, and back-end development."
+        />
       </Head>
       <TransitionEffect />
       <main
@@ -55,22 +58,43 @@ export default function About() {
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-            <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
-            md:col-span-8">
+            <div
+              className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
+            md:col-span-8"
+            >
               <h2 className="mb-4 text-3xl font-bold uppercase text-dark/75 dark:text-light/75">
                 BIOGRAPHY
               </h2>
               <p className="font-medium 4xl:text-xl 3xl:text-lg 2xl:text-base">
-              Swapping science for the IT was more than a career move — it represented a synthesis of my analytical strengths with a newfound digital passion. My foundation in nanotechnology taught me precision, a detail-oriented mindset, and the tenacity to solve intricate problems.</p>
+                Transitioning from a scientific background in nanotechnology to
+                web development was not just a career shift, but a fusion of
+                analytical rigor with digital innovation. My scientific
+                foundation instilled precision, problem-solving, and a
+                meticulous attention to detail that now empowers my work as a
+                frontend developer.
+              </p>
               <p className="my-2 font-medium 4xl:text-xl 3xl:text-lg 2xl:text-base">
-              The skills I gathered — like meticulous project management, relentless problem-solving, and efficient time coordination — now empower my web development endeavors.</p>
+                Over six years, I have honed my skills in designing scalable web
+                applications, building reusable component libraries, optimizing
+                workflows, and ensuring seamless user experiences. My expertise
+                spans modern frameworks like Vue.js, React, and Angular, along
+                with a strong grasp of state management, testing, and CI/CD
+                pipelines.
+              </p>
               <p className="font-medium 4xl:text-xl 3xl:text-lg 2xl:text-base">
-              Today, every line of code I write, every interface I design, is not just the output of technical proficiency, but also a culmination of my multifaceted experiences. I stand as a testament to what happens when scientific rigor meets digital creativity, and I&apos;m excited for the many more intersections to come.</p>
+                Every project I take on reflects not just technical proficiency
+                but also my commitment to creating impactful, user-centric
+                solutions. I thrive at the intersection of scientific precision
+                and creative design, driven to deliver innovative results that
+                exceed expectations.
+              </p>
             </div>
-            <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
+            <div
+              className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
             bg-light p-8 dark:border-light dark:bg-dark
             xl:col-span-4 md:col-span-8 md:order-1
-            ">
+            "
+            >
               <div
                 className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%]  rounded-[2rem] rounded-br-3xl 
                 bg-dark
@@ -86,25 +110,30 @@ export default function About() {
                 priority
               />
             </div>
-            <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
-            xl:items-center md:order-3">
-
+            <div
+              className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
+            xl:items-center md:order-3"
+            >
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumberFramerMotion value={50} />+
                 </span>
-                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm">
+                <h2
+                  className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
+                xl:text-center md:text-lg sm:text-base xs:text-sm"
+                >
                   projects completed
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={2} />+
+                  <AnimatedNumberFramerMotion value={5} />+
                 </span>
-                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm">
+                <h2
+                  className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
+                xl:text-center md:text-lg sm:text-base xs:text-sm"
+                >
                   Years of experience
                 </h2>
               </div>
@@ -114,7 +143,6 @@ export default function About() {
           <Skills />
           <Experience />
           <Education />
-          <Science />
         </Layout>
       </main>
     </>
