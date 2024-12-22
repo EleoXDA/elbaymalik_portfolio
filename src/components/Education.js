@@ -15,7 +15,9 @@ const Details = ({ type, time, place, info }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="mb-3 capitalize font-bold text-2xl sm:text-xl xs:text-lg">{type}</h3>
+        <h3 className="mb-3 capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+          {type}
+        </h3>
         <span className="capitalize text-dark/75 font-medium dark:text-light/50 xs:text-sm">
           {time} | {place}
         </span>
@@ -35,7 +37,9 @@ const Education = () => {
 
   return (
     <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">Education</h2>
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+        Education
+      </h2>
 
       <div ref={ref} className="relative w-[75%] mx-auto lg:w-[90%] md:w-full">
         <motion.div
@@ -48,13 +52,13 @@ const Education = () => {
             time="2022"
             place="Le Wagon Web Development Bootcamp"
             info={[
-              "• 9-week instensive full-time Coding Bootcamp that focused on Ruby on Rails, HTML, CSS, JavaScript, React, Redux, SQL, Git, GitHub, Heroku, and pair programming.", 
+              "• 9-week instensive full-time Coding Bootcamp that focused on Ruby on Rails, HTML, CSS, JavaScript, React, Redux, SQL, Git, GitHub, Heroku, and pair programming.",
               "• Two weeks of individual work on a final project, which was a full-stack web application built with Ruby on Rails, HTML, CSS, JavaScript, and PostgreSQL.",
-              "• Final project included starting from sketches, wireframes (Figma), and user stories to a deployed web application with a database and a user interface."
+              "• Final project included starting from sketches, wireframes (Figma), and user stories to a deployed web application with a database and a user interface.",
             ].map((line, index) => (
               <React.Fragment key={index}>
                 {line}
-                <br/>
+                <br />
               </React.Fragment>
             ))}
           />
@@ -66,10 +70,10 @@ const Education = () => {
               "• Gained expertise in statistical analysis, data interpretation, and presentation, applicable to development workflows.",
               "• Managed multiple interdisciplinary projects, fostering strong organizational and problem-solving skills.",
               "• Developed an analytical mindset through rigorous research, now applied to debugging and optimization tasks.",
-                      ].map((line, index) => (
+            ].map((line, index) => (
               <React.Fragment key={index}>
                 {line}
-                <br/>
+                <br />
               </React.Fragment>
             ))}
           />
@@ -82,7 +86,7 @@ const Education = () => {
             ].map((line, index) => (
               <React.Fragment key={index}>
                 {line}
-                <br/>
+                <br />
               </React.Fragment>
             ))}
           />

@@ -1,4 +1,3 @@
-import { color } from "framer-motion";
 import * as React from "react";
 
 export const GithubIcon = ({ className, ...rest }) => (
@@ -388,16 +387,15 @@ export const MoonIcon = ({ className, ...rest }) => (
 
 export const CircularText = ({ className, ...rest }) => (
   <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="1470"
-  height="1470"
-  viewBox="0 0 1470 1470"
-  xmlSpace="preserve"
-  className={`w-full h-auto ${className}`}
-  {...rest}
-
+    xmlns="http://www.w3.org/2000/svg"
+    width="1470"
+    height="1470"
+    viewBox="0 0 1470 1470"
+    xmlSpace="preserve"
+    className={`w-full h-auto ${className}`}
+    {...rest}
   >
-<text
+    <text
       transform="translate(446.16 323.09) rotate(-26.32)"
       style={{
         fontFamily: "Kefa-Regular, Kefa",

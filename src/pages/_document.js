@@ -7,7 +7,7 @@ export default function Document() {
       <Head />
       <body>
         <Script id="theme-switcher" strategy="beforeInteractive">
-        {`
+          {`
  if (
   localStorage.getItem('theme') === 'dark' ||
   (!('theme' in localStorage) &&

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import Layout from "./Layout";
 
@@ -13,12 +12,15 @@ const Footer = () => {
         <span></span>
 
         <div className="flex items-center lg:py-2">
-          Built with <span className="text-primary text-2xl px-1 dark:text-primaryDark">&#9825;	</span> by&nbsp;
+          Built with{" "}
+          <span className="text-primary text-2xl px-1 dark:text-primaryDark">
+            &#9825;{" "}
+          </span>{" "}
+          by&nbsp;
           <span className="underline underline-offset-2">Elbay Malik</span>
         </div>
 
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
-
       </Layout>
     </footer>
   );

@@ -20,10 +20,7 @@ const NotFound = () => {
       <main className="h-[75vh] w-full dark:bg-dark ">
         <Layout className="relative !bg-transparent !pt-16 flex flex-col items-center justify-center">
           <AnimatedText text="404" className=" " />
-          <AnimatedText
-            text="Page Not Found."
-            className=" !text-7xl "
-          />
+          <AnimatedText text="Page Not Found." className=" !text-7xl " />
           <Link
             href="/"
             className="self-center !mt-4 inline-block rounded-lg border-2 border-solid bg-dark px-4 py-2
